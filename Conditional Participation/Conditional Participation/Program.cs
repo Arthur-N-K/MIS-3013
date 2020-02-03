@@ -39,6 +39,15 @@ namespace Conditional_Participation
                 Console.WriteLine("Wrong!!");
                 
             }
+            else
+            {
+                Console.WriteLine("Invalid statement");
+                Console.ReadKey();
+                return;
+
+            }
+
+
 
 
             const string Name = "Arthur";
