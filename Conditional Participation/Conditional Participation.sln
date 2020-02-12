@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional Participation", "Conditional Participation\Conditional Participation.csproj", "{BBD9E2A9-AE38-497E-BA3A-C65BC2315C06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Manupilation", "String Manupilation\String Manupilation.csproj", "{1EE43B7D-6C45-4AB4-8B54-F5BC266FB694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BBD9E2A9-AE38-497E-BA3A-C65BC2315C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD9E2A9-AE38-497E-BA3A-C65BC2315C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD9E2A9-AE38-497E-BA3A-C65BC2315C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE43B7D-6C45-4AB4-8B54-F5BC266FB694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE43B7D-6C45-4AB4-8B54-F5BC266FB694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE43B7D-6C45-4AB4-8B54-F5BC266FB694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE43B7D-6C45-4AB4-8B54-F5BC266FB694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
