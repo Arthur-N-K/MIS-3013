@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop Summing", "Loop Summin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Manupilation", "String Manupilation\String Manupilation.csproj", "{C0265206-1A4D-4AE9-93B8-1E20B70437CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{7A14F14D-1A92-4A4B-B26E-E5CD0C2AAD1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C0265206-1A4D-4AE9-93B8-1E20B70437CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0265206-1A4D-4AE9-93B8-1E20B70437CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0265206-1A4D-4AE9-93B8-1E20B70437CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A14F14D-1A92-4A4B-B26E-E5CD0C2AAD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A14F14D-1A92-4A4B-B26E-E5CD0C2AAD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A14F14D-1A92-4A4B-B26E-E5CD0C2AAD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A14F14D-1A92-4A4B-B26E-E5CD0C2AAD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
