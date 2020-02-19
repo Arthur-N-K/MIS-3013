@@ -10,19 +10,31 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-            string exam;
 
-            do
-            {
+            string examinput;
+
+            List<double> grades = new List<double>();
+
+            do {
                 Console.WriteLine("Input your exam score >>");
                 double examS = Convert.ToDouble(Console.ReadLine());
 
+
+               grades.Add(examS);
+
+                //double max;
+                for (int i = 0; i < examS; i++)
+                {
+                    Console.WriteLine(i);
+                }
+
                 Console.WriteLine("Do you have another exam to add? (yes/no)");
-                exam = Console.ReadLine();
-            } while (exam == "yes");
+                examinput = Console.ReadLine();
+            } while (examinput == "yes");
+            ;
 
 
-
+           
             Console.ReadKey();
         }
     }
