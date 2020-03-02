@@ -31,6 +31,7 @@ namespace Collections2
                 
             }
 
+            string together;
             for (int i = 0; i < Coursenumbers.Length; i++)
             {
                 Console.WriteLine($" Your course is {Coursenames[i].ToUpper()} {Coursenumbers[i].ToUpper()}");
@@ -72,7 +73,8 @@ namespace Collections2
 
             Console.WriteLine($"Your average for the {grades.Count} exam  grade is {average.ToString("N3")}");
 
-
+            Dictionary<string, int> values = new Dictionary<string, int>();
+           
 
 
             Console.ReadKey();
