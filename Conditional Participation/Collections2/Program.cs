@@ -31,7 +31,7 @@ namespace Collections2
                 
             }
 
-            string together;
+            //string together;
             for (int i = 0; i < Coursenumbers.Length; i++)
             {
                 Console.WriteLine($" Your course is {Coursenames[i].ToUpper()} {Coursenumbers[i].ToUpper()}");
@@ -73,10 +73,30 @@ namespace Collections2
 
             Console.WriteLine($"Your average for the {grades.Count} exam  grade is {average.ToString("N3")}");
 
-            Dictionary<string, int> values = new Dictionary<string, int>();
-           
+
+            //Problem 3
+            Dictionary<string, List<double>> values = new Dictionary<string, List<double>>();
+            List<double> MIS3013Grades = new List<double>();
+            MIS3013Grades.Add(0.85);
+            MIS3013Grades.Add(0.65);
+            MIS3013Grades.Add(0.95);
+
+            List<double> MIS2113grades = new List<double>();
+            MIS2113grades.Add(0.75);
+            MIS2113grades.Add(0.85);
+            MIS2113grades.Add(0.25);
 
 
+            List<double> MIS3033grades = new List<double>();
+            MIS3033grades.Add(0.45);
+            MIS3033grades.Add(0.95);
+            MIS3033grades.Add(0.85);
+
+
+            values.Add(" MIS3013", MIS3013Grades);
+            values.Add("MIS2113", MIS2113grades);
+            values.Add("MIS3033", MIS3033grades);
+            
             Console.ReadKey();
         }
     }
