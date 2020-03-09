@@ -109,5 +109,14 @@ namespace Functions
         {
             return val1 + val2;
         }
+        static void DeveloperInformation(string developerName, string className, string dateOfWriting)
+        {
+            Console.WriteLine($"{developerName} wrote this application for {className} on {dateOfWriting}");
+        }
+
+    
+
+
+
     }
 }
