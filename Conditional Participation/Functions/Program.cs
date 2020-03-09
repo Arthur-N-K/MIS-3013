@@ -64,8 +64,9 @@ namespace Functions
                     Console.WriteLine($"Your answer is {multi} ");
                 }
 
-                else (answer == "Division")
+                else if (answer == "Division")
                 {
+                    
                     Console.WriteLine("What first numbers do you wanna divide?");
                     val1 = Convert.ToInt32(Console.ReadLine());
 
@@ -81,6 +82,8 @@ namespace Functions
                 ans = Console.ReadLine();
 
             } while (ans.ToLower() == "y");
+
+            Console.WriteLine("Thank You for using my application");
 
             
 
