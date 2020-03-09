@@ -29,7 +29,7 @@ namespace Functions
                 int multi;
                 int divide;
 
-                if (answer == "Addition")
+                if (answer.ToLower() == "addition")
                 {
                     Console.WriteLine("What first numbers do you wanna add?");
                     val1 = Convert.ToInt32(Console.ReadLine());
@@ -40,7 +40,7 @@ namespace Functions
                     Console.WriteLine($"Your answer is {add} ");
                 }
 
-                else if (answer == "Subtraction")
+                else if (answer.ToLower() == "subtraction")
                 {
                     Console.WriteLine("What first numbers do you wanna subtract?");
                     val1 = Convert.ToInt32(Console.ReadLine());
@@ -52,7 +52,7 @@ namespace Functions
                     Console.WriteLine($"Your answer is {subtract} ");
                 }
 
-                else if (answer == "Multiplication")
+                else if (answer.ToLower() == "multiplication")
                 {
                     Console.WriteLine("What first numbers do you wanna multiply?");
                     val1 = Convert.ToInt32(Console.ReadLine());
@@ -64,7 +64,7 @@ namespace Functions
                     Console.WriteLine($"Your answer is {multi} ");
                 }
 
-                else if (answer == "Division")
+                else if (answer.ToLower() == "division")
                 {
                     
                     Console.WriteLine("What first numbers do you wanna divide?");
@@ -116,7 +116,11 @@ namespace Functions
         {
             Console.WriteLine($"{developerName} wrote this application for {className} on {dateOfWriting}");
         }
-
+        private static void Main2(string[] args)
+        {
+            DeveloperInformation("Arthur K", "MIS-3013", "03/08/2020");
+            Console.ReadKey();
+        }
     
 
 
